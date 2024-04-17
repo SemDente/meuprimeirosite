@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+header {
+    background-color:antiquewhite;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+section {
+        padding: 20px;
+
+    }
+
+.info1 {
+    height: 275px;
+    background-color: cornsilk;
+    width: 400px;
+    
+}
+
+.blocos {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+.info2 {
+    height: 275px;
+    background-color:cornsilk;
+    width:400px;
+    
+}
+
+.info3 {
+    height: 275px;
+    background-color: cornsilk;
+    width: 400px;
+    
+}
+
+
+.blocos2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.info01 {
+    height: 250px;
+    background-color: #333;
+    width: 500px;
+    
+    
+    
+
+}
+
+.info02 {
+    height: 250px;
+    background-color: #333;
+    width: 500px;
+   
+    
+    
+
+}
+
+.minimush {
+    height: 270px;
+    width: 400px;
+    
+}
+
+main {
+    background-color: aliceblue;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.minimush2 {
+    height: 300px;
+    width: 500px;
+
+
+}
+
+.minimush3 {
+    height: 246px;
+    width: 500px;
+
+
+}
+
+.minimush4 {
+    height: 246px;
+    background-color: #333;
+    width: 500px;
+    
+
+}
+
+/* Responsividade */
+
+@media (max-width:1300px) {
+    .minimush {
+        height: 210px;
+        width: 400px;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .blocos {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+}
+
+@media (max-width: 900px) {
+    .blocos2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+
+}
